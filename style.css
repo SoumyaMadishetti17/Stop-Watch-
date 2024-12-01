@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    margin-top: 5em;
+    background-color: #6a6d71ce;
+    font-size: 2em;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+}
+.stopwatch {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    margin: auto;
+}  
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}  
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+.controls button:hover {
+    background-color: #555;
+    color: white;
+}
